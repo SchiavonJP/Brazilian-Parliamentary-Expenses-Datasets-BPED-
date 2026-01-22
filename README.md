@@ -1,3 +1,5 @@
+![Brazilian Parliamentary Expenses Dataset (BPED)](figures/bped_cover.png)
+
 # 🇧🇷 Brazilian Parliamentary Expenses Dataset (BPED)
 
 This repository provides the **Brazilian Parliamentary Expenses Dataset (BPED)** and the full **data processing and modeling pipeline** used to construct and analyze it.
@@ -32,4 +34,3 @@ Only **non-negative, validated reimbursements** are included.
 | `mean_value`              | Average adjusted reimbursement value historically associated with the same supplier (BRL) |
 
 > `mean_value` is a **derived feature** computed as the mean reimbursement value across all transactions involving the same supplier, providing a peer-based reference for anomaly detection.
-
